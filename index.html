@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
 </head>
 <body>
-    
+<h1>File Browser</h1>
+<img src="./hello.png" alt="Hello Picture" width="200">
+  <table>
+    <thead>
+      <tr>
+        <th>Icon</th>
+        <th>File name</th>
+        <th>Type</th>
+        <th>Size</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="icon"><i class="fa-solid fa-file-image"></i></td>
+        <td><a href="./hello.png">hello.png</a></td>
+        <td class="filetype">PNG</td>
+        <td>-- KB</td>
+      </tr>
+      <tr>
+        <td class="icon"><i class="fa-solid fa-file-code"></i></td>
+        <td><a href="./hello.html">hello.html</a></td>
+        <td class="filetype">HTML</td>
+        <td>-- KB</td>
+      </tr>
+      <tr>
+        <td class="icon"><i class="fa-solid fa-file-code"></i></td>
+        <td><a href="./file.json">file.json</a></td>
+        <td class="filetype">JSON</td>
+        <td>-- KB</td>
+      </tr>
+      <tr>
+        <td class="icon"><i class="fa-solid fa-file-lines"></i></td>
+        <td><a href="./hello.txt">hello.txt</a></td>
+        <td class="filetype">TXT</td>
+        <td>-- KB</td>
+      </tr>
+      <tr>
+        <td class="icon"><i class="fa-solid fa-file-pdf"></i></td>
+        <td><a href="./hello.pdf">hello.pdf</a></td>
+        <td class="filetype">PDF</td>
+        <td>-- KB</td>
+      </tr>
+    </tbody>
+
+    </table>
+    <h2>Here are the 3 Observations:</h2>
+  <ul>
+    <li>Images open link showing the image Hello.</li>
+    <li>JSON file link open showing  hello world.</li>
+    <li>text file link open in the browser’s showing hello world text.</li>
+  </ul>
+
 </body>
 </html>
